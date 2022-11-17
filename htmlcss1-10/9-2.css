@@ -72,11 +72,11 @@ footer{
   }
 
   .step-box{
-
+    margin: 0 auto;
     margin-bottom: 15px;
   }
   .step-box:last-child{
-
-    margin-bottom: 0;
+    margin: 0 auto;
   }
+
 }
