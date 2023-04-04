@@ -1,20 +1,19 @@
-def fizz_buzz(number)
-  #ここにFizzBuzzプログラムの処理を書いてください
-  if number % 15==0
+def fizz_bazz(number)
+  if number % 15 == 0
     "FizzBuzz"
-    elsif number % 3==0
-      "Fizz"
-      elsif number % 5==0
-        "Buzz"
-      else 
-        number.to_s
-      end
-end
+  elsif number % 3 == 0
+    "Buzz"
+  elsif number % 5 == 0
+    "Fizz"
+  else 
+    number.to_s
+  end
+    
+end 
 
+puts "数字を入力してください。"
 
-puts "数字を入力してください"
-
-input=gets.to_i
+input = gets.to_i
 
 puts "結果は..."
-puts fizz_buzz(input)
+puts fizz_bazz(input)
