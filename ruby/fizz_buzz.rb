@@ -17,3 +17,23 @@ input = gets.to_i
 
 puts "結果は..."
 puts fizz_bazz(input)
+
+
+#JavaのFIzzBuzzコード練習
+
+#public class Fizzbuzz{
+ #  public static void main(String[]  args){
+      #for (int i = 1; i<=100; i++){
+        #if (i % (3 * 5) == 0 ){
+          #System.out.println("Fizz Buzz");
+        #}else if (i % 3 == 0)  {
+         # System.out.println("Fizz");
+        #}else if (i % 5 == 0)  {
+         # System.out.println("Buzz");
+        #}else {
+         # System.out.println( i );
+        #}
+       #}
+    #}
+
+#}
